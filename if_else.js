@@ -4,9 +4,9 @@ var tijeras = 1;
 
 alert("Bienvenido al juego de piedra papel o tijera");
 alert("1. Tijera. 2. Piedra. 3. Papel.");
-var pc = Math.round(Math.random()*3);
-var user = prompt("Elija con nro la opción que quiere elegir.");
-Number(user);
+var pc = Math.round(Math.random()*3);  //Metodo que me permite poder dar un numero al azar entre 1 y 3 y redondearlo a un entero
+var user = prompt("Elija con nro la opción que quiere elegir."); //prompt permite pedir datos al usuario
+Number(user); //Me aseguro de que sean de tipo number ambas variables
 Number(pc);
 response12(user)
 selectedpc(pc)
