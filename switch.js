@@ -34,7 +34,7 @@ function validation (user) {
 }
 
 
-function game(user , pc) { //El error se debe a que puce primero USER Y DPS PC EN LOS PARAMETROS, Y EN LA VALIDACION DEL IF
+function game(user, pc) { //El error se debe a que puce primero USER Y DPS PC EN LOS PARAMETROS, Y EN LA VALIDACION DEL IF
                             // PUSE PRIMERO PC Y DESPUES USER
     if (user == 1 && pc == 3) {
         alert("Maquina : papel || Tu: Tijeras ¡Ganaste!");
